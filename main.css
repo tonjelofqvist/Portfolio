@@ -1,0 +1,149 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #0e1111;
+  color: #ffffff;
+}
+
+.linkedin {
+  width: 10%;
+  height: 10%;
+  color: #ffb862;
+}
+
+.student {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.overskrift {
+}
+
+.projekt-titel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.indigo {
+  display: flex;
+  flex-direction: column;
+  background-color: #232b2b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 40%;
+  align-items: center;
+  margin: 2rem;
+}
+
+.indigoLogo {
+  width: 30%;
+  padding: 1.5rem;
+  align-self: flex-start;
+}
+
+.indigoKnapp {
+  line-height: 4;
+  color: #ffb862;
+}
+
+.indigoTitle {
+  display: flex;
+}
+
+.iTekstogBeskrivelse {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 1.5rem;
+}
+
+.bergtatt {
+  display: flex;
+  flex-direction: column;
+  /* background-color: bisque; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 40%;
+  align-items: center;
+  float: right;
+  margin: 2rem;
+  background-color: #232b2b;
+  /* background: url(bakgrunn.png); */
+  /* background-size: cover; */
+}
+.TittelTekst {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 1.5rem;
+}
+
+.bergTitle {
+  display: flex;
+}
+
+.bergtattLogo {
+  width: 25%;
+  padding: 2rem;
+  align-self: flex-start;
+}
+
+.bergtattKnapp {
+  line-height: 4;
+  color: #ffb862;
+}
+
+.tittel {
+  text-align: center;
+}
+
+.bilde {
+  width: 15%;
+  height: 15%;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .bilde {
+    width: 50%;
+  }
+  .indigo {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  .indigoTitle {
+    flex-direction: column;
+    text-align: center;
+  }
+  .indigoLogo {
+    align-self: center;
+  }
+  .bergtatt {
+    width: 100%;
+    margin: 0;
+  }
+  .bergTitle {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bergtattLogo {
+    width: 30%;
+    align-self: center;
+    padding: 1rem;
+  }
+}

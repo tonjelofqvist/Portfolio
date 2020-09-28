@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bergtattStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bergtatt</title>
+  </head>
+  <body>
+    <div class="innmat">
+      <div class="beskrivelse">
+        <a class="tilbake" href="/index.html"> < Tilbake </a>
+        <h1 class="title">"IN2000 Software Engineering"</h1>
+
+        <p>
+          I dette kurset var målet å lage en applikasjon med API fra
+          meteorologisk institutt. Vi var en gruppe på seks studenter som valget
+          caset: «Ras-, flo- og flomvarsling.», men spisset oss på «ras» og
+          endte derfor med å utvikle en snøskredvarsler. Med en generell
+          interesse for ski og brettkjøring innad i gruppen, ønsket vi å lage en
+          app som la til rette for god og trygg ferdsel i utsatte områder.
+          Prosjektet ble utviklet i Android Studio med Kotlin som
+          programmeringsspråk. Applikasjonen ble nominert til «årets beste app»
+          i kurset IN2000 våren 2020.
+        </p>
+
+        <p>
+          <span style="font-weight: bold">Interaksjonsdesign/Prosess:</span>
+          Datainnsamling, Brukertesting, Figma, Scrum
+        </p>
+        <p>
+          <span style="font-weight: bold">Utvikling:</span>
+          Android Studio, Kotlin
+        </p>
+
+        <div class="landingTekst">
+          <img class="landingpage" src="Landingpage.png" alt="Bergtatt" />
+          <p>
+            Applikasjonens velkomstside består av en «Landing page» som
+            presenterer appen, fjellvettreglene og minner om at man må ta hensyn
+            på tur. Denne siden kommer kun opp første gang du kjører appen.
+          </p>
+        </div>
+
+        <div class="landingTekst">
+          <img class="regional" src="Regional skredvarsel.svg" alt="Bergtatt" />
+          <p>
+            Den regionale skredvarsleren presenterer en oversikt over
+            skredvarsel for ulike regioner sortert etter fargegrad for dagen i
+            dag og to kommende dager. Regionene med høyest skredfare presenteres
+            først. Dersom det ikke er tilgjengelig varsel presenteres en grå
+            trekant med spørsmålstegn.
+          </p>
+        </div>
+
+        <div class="landingTekst">
+          <img class="landingpage" src="UtforskTurer.png" alt="Bergtatt" />
+          <p>
+            Denne siden gir brukeren muligheten til å bla gjennom en rekke turer
+            i Norge. I oversikten gis informasjon om lengde, type tur,
+            vanskelighetsgrad og tidsestimat. Turene kan også sorteres deretter.
+          </p>
+        </div>
+
+        <div class="landingTekst">
+          <img class="landingpage" src="Utforsk turer.png" alt="Bergtatt" />
+          <p>
+            Her får brukeren utvidet informasjon over den valgte turen. Her kan
+            også turen lagres i mine favoritter. Side 1) Et sammendrag av turen
+            presenteres, med tips og erfaringer. Info om turene ligger i en
+            database som er skrevet av folk som har gått turen selv. Side 2)
+            Informasjon om skred- og værvarsling. Side 3) Den valgte turens rute
+            på kartet.
+          </p>
+        </div>
+
+        <div class="landingTekst">
+          <img class="kart" src="Kart.png" alt="Bergtatt" />
+          <p>
+            Brukeren vil bli presentert med et kart med en rekke prikker. Disse
+            prikkene er startpunktet til alle turene i databasen.
+          </p>
+        </div>
+
+        <div class="landingTekst">
+          <img class="mineturer" src="MineTurer.png" alt="Bergtatt" />
+          <p class="mineturerText">
+            Mine turer gir en oversikt over alle de lagrede turene til brukeren.
+          </p>
+        </div>
+
+        <div class="prosessTekst">
+          <p>
+            <span style="font-weight: bold">Prosess:</span>
+            Gjennom prosjektet benyttet vi Scrum som smidig utviklingsmetodikk,
+            da vi så dette mest hensiktsmessig med tanke på tiden vi hadde. Vi
+            ble dog nødt til å endre sprintene til å tilpasse vårt prosjekt, og
+            de varte derfor i en uke av gangen. Dette er noe kortere enn en
+            ordinær sprint, men vi så det hensiktsmessig å gjøre det på denne
+            måten for å holde et noe hyppigere leveringstempo.
+          </p>
+          <p>
+            Sprintene ble hovedsakelig delt opp i mål, design, utvikling og
+            erfaringer. Scrum-master ble en rullerende rolle i teamet, men var
+            spesielt givende for å få erfaringen av å lede møter og ha en
+            veiledende rolle. En skulle ha kontroll på hva alle i teamet gjorde
+            til enhver tid, ha kontroll over backloggen og skrive oppsummering
+            etter ukas retrospektive møte.
+          </p>
+
+          <p>
+            <span style="font-weight: bold">Design:</span>
+            I den innledende fasen av prosjektet definerte vi målgruppen vår som
+            «aktive turgåere på vinterstid». Planen for innledende
+            datainnsamling var å snakke med brukere som benyttet ulike typer ski
+            og snowboard i områder der det er skredfare, for senere å bruke de
+            samme brukerne til testing og evaluering. Etter koronautbruddet så
+            vi oss nødt til å endre dette, da det fort ble vanskelig å jevnlig
+            møte disse brukerne. Det ble dumt å be de laste ned Android Studio
+            og kjøre emulatoren for å teste appen uten at vi kunne være til
+            stede.
+          </p>
+          <p>
+            I og med at dette var såpass tidlig i prosjektet så vi oss nødt til
+            å utvide målgruppen vår, og fokuset ble endret. Applikasjonen skulle
+            ha en mer «allmen» tilnærming til turplanlegging og skred slik at
+            «Ola Nordmann» som går på tur i fjellet hvor det er fare for skred,
+            også kan bruke appen. Dette gjorde det lettere for oss å teste appen
+            jevnlig, da vi hadde tilgang på flere «allmenne turgåere».
+            Applikasjonen ble designet i Figma. Før vi hadde fått implementert
+            designet i selve applikasjonen, ble brukertestene gjennomført ved
+            hjelp av Figmas wireframing.
+          </p>
+        </div>
+      </div>
+      <div class="top-btn">
+        <a class="tilToppen" href="./bergtatt.html">Til Toppen</a>
+      </div>
+    </div>
+  </body>
+</html>

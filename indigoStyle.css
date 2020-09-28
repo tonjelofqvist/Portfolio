@@ -1,0 +1,86 @@
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #0e1111;
+  color: #fff;
+}
+
+.innmat {
+  padding: 2rem;
+  margin: 5rem;
+  height: 70%;
+  width: 80%;
+  background-color: #232b2b;
+}
+
+.beskrivelse {
+  margin: 4rem;
+}
+
+.tekst {
+  padding: 5rem;
+  line-height: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.top-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.tilToppen {
+  text-align: end;
+  border: solid 2px #0e1111;
+  text-decoration: none;
+  padding: 1rem;
+  background: #0e1111;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.tilToppen:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #ffb862;
+}
+
+.tilbake {
+  color: #ffb862;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.tilbake:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .innmat {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .beskrivelse {
+    margin: 0;
+    padding: 1rem;
+  }
+  .top-btn {
+    padding: 1rem;
+  }
+  .utforskTur {
+    width: 100%;
+    padding: 0;
+  }
+  .regional {
+    width: 100%;
+    padding: 0;
+  }
+  .landingpage {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
