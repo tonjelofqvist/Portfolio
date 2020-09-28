@@ -140,4 +140,7 @@ body {
   .mineturer {
     width: 100%;
   }
+  .title {
+    font-size: medium;
+  }
 }
