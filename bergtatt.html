@@ -17,15 +17,23 @@
         <h1 class="title">"IN2000 Software Engineering"</h1>
 
         <p>
-          I dette kurset var målet å lage en applikasjon med API fra
-          meteorologisk institutt. Vi var en gruppe på seks studenter som valget
-          caset: «Ras-, flo- og flomvarsling.», men spisset oss på «ras» og
-          endte derfor med å utvikle en snøskredvarsler. Med en generell
-          interesse for ski og brettkjøring innad i gruppen, ønsket vi å lage en
-          app som la til rette for god og trygg ferdsel i utsatte områder.
-          Prosjektet ble utviklet i Android Studio med Kotlin som
-          programmeringsspråk. Applikasjonen ble nominert til «årets beste app»
-          i kurset IN2000 våren 2020.
+          I dette kurset var målet å lage en applikasjon ved bruk av data fra
+          meteorologisk institutt gjennom deres API. Vi var en gruppe på seks
+          studenter, og valgte caset «Ras-, flo-, og flomvarsling». Med den
+          avgrensede tidsperioden for å utvikle denne appen, valgte vi å spisse
+          oss inn på ras. Ved bruk av den tilgjengelige dataen lagde vi en
+          snøskredvarsler.
+        </p>
+
+        <p>
+          En generell interesse for ski og brettkjøring innad i gruppen, ønsket
+          vi å lage en app som la til rette for god og trygg ferdsel i utsatte
+          områder. Min rolle i prosjektet var å, sammen med en til, lede design
+          prosessen som innebar datainnsamling, testing og evaluering. I tillegg
+          til dette jobbet jeg mye med «Landing pagen», både i Figma og med
+          koden. Appen ble laget for Android, ved bruk av verktøyet Android
+          Studio, og Kotlin som programmeringsspråk. Applikasjonen ble nominert
+          til «årets beste app» i kurset IN2000 våren 2020.
         </p>
 
         <p>
@@ -43,6 +51,10 @@
             Applikasjonens velkomstside består av en «Landing page» som
             presenterer appen, fjellvettreglene og minner om at man må ta hensyn
             på tur. Denne siden kommer kun opp første gang du kjører appen.
+            Tanken var å introdusere brukeren for hva Bergtatt er og hvordan det
+            kan komme til hjelp. Vi ønsket å fremme fjellvettreglene og at man
+            alltid skal ha respekt for hva fjellet byr på. Landing pagen kommer
+            i både lys og mørk, men er «by deafult» lys etter flere testinger.
           </p>
         </div>
 
@@ -60,9 +72,11 @@
         <div class="landingTekst">
           <img class="landingpage" src="UtforskTurer.png" alt="Bergtatt" />
           <p>
-            Denne siden gir brukeren muligheten til å bla gjennom en rekke turer
-            i Norge. I oversikten gis informasjon om lengde, type tur,
+            Appen gir brukeren muligheten til å bla gjennom en rekke turer i
+            Norge. I oversikten gis informasjon om lengde, type tur,
             vanskelighetsgrad og tidsestimat. Turene kan også sorteres deretter.
+            Turene kan sorteres deretter slik at brukeren lettere kan finne en
+            tur tilpasset ens behov.
           </p>
         </div>
 
@@ -72,9 +86,14 @@
             Her får brukeren utvidet informasjon over den valgte turen. Her kan
             også turen lagres i mine favoritter. Side 1) Et sammendrag av turen
             presenteres, med tips og erfaringer. Info om turene ligger i en
-            database som er skrevet av folk som har gått turen selv. Side 2)
-            Informasjon om skred- og værvarsling. Side 3) Den valgte turens rute
-            på kartet.
+            database som er skrevet av folk som har gått turen selv. Ved hjelp
+            av denne informasjonen vil brukeren få en god oversikt over hvordan
+            turen er. Side 2) Informasjon om skred- og værvarsling. Dagens
+            skred- og værvarsling vil hjelpe brukeren å ta riktig beslutning på
+            om det er forsvarlig å gå på tur eller ikke. Side 3) Den valgte
+            turens rute på kartet vil hjelpe brukeren å få et visuelt syn på
+            hvordan ruta ser ut. Ved å skru på filtre på dette kartet vil man
+            også kunne se for eksempel bratthet.
           </p>
         </div>
 
@@ -82,7 +101,9 @@
           <img class="kart" src="Kart.png" alt="Bergtatt" />
           <p>
             Brukeren vil bli presentert med et kart med en rekke prikker. Disse
-            prikkene er startpunktet til alle turene i databasen.
+            prikkene er startpunktet til alle turene i databasen. Med et enkelt
+            kart kunne brukeren få oversikt over alle startpunktene til de
+            nærliggende turene.
           </p>
         </div>
 
@@ -90,6 +111,9 @@
           <img class="mineturer" src="MineTurer.png" alt="Bergtatt" />
           <p class="mineturerText">
             Mine turer gir en oversikt over alle de lagrede turene til brukeren.
+            Ved å lagre unna turer kan brukeren enkelt navigere seg fram til
+            sine favoritter og tidligere turer. Turene presenteres i en oversikt
+            slik som i «Utforsk turer» for enkelhetens skyld.
           </p>
         </div>
 
