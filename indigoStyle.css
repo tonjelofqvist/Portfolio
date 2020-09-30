@@ -15,6 +15,25 @@ body {
   background-color: #232b2b;
 }
 
+.metodeBilder {
+  width: 60%;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+.metode {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.metode p {
+  text-align: left;
+  padding: 1rem;
+  /* width: 60%; */
+  /* margin: 0 auto; */
+}
+
 .beskrivelse {
   margin: 4rem;
 }
