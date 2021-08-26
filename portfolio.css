@@ -1,11 +1,10 @@
 body {
-  background: url("Bergtatt_steg3.svg") no-repeat center;
-  background-size: cover;
   font-family: "Cormorant", serif;
   height: 100%;
   display: flex;
   justify-content: center;
-  line-height: 1.5rem;
+  background-color: #e4efef;
+  color: #224d4d;
 }
 
 .innmat {
@@ -13,75 +12,36 @@ body {
   margin: 5rem;
   height: 70%;
   width: 80%;
-  background-color: white;
-  background: rgba(255, 255, 255, 0.8);
+  background-color: #fafefe;
   font-size: 18px;
 }
 
-p {
-  font-weight: 650;
-}
-
-.beskrivelse {
-  margin: 4rem;
-}
-
-.landingpage {
-  width: 60%;
+.portfolio_pic {
+  width: 20%;
   padding-top: 2rem;
   margin: 0 auto;
 }
 
-.landingTekst {
+.portfolio {
   text-align: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
 
-.landingTekst p {
+.portfolio p {
   text-align: left;
   padding: 1rem;
   /* width: 60%; */
   /* margin: 0 auto; */
 }
 
-.utforskTur {
-  width: 60%;
-  padding: 2rem;
-}
-
-.utforskTekst {
-  text-align: center;
-}
-
-.utforskTekst p {
-  text-align: left;
-}
-
-.regional {
-  width: 30%;
-}
-.kart {
-  width: 30%;
-}
-.mineturer {
-  width: 50%;
-}
-.regionalTekst {
-  text-align: center;
-}
-
-.regionalTekst p {
-  text-align: left;
+.beskrivelse {
+  margin: 4rem;
 }
 
 .tekst {
   padding: 5rem;
   line-height: 2rem;
-}
-
-.designTekst {
-  margin-top: 4rem;
 }
 
 .title {
@@ -94,21 +54,20 @@ p {
 }
 .tilToppen {
   text-align: end;
-  border: solid 2px #213032;
   text-decoration: none;
   padding: 1rem;
-  background: #213032;
+  background: #739296;
   color: white;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 .tilToppen:hover {
   background-color: rgba(255, 255, 255, 0.6);
-  color: #213032;
+  color: #739296;
 }
 
 .tilbake {
-  color: #213032;
+  color: #739296;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -118,6 +77,10 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    padding-top: 50px;
+  }
+
   .innmat {
     width: 90%;
     margin: 0;
@@ -142,14 +105,5 @@ p {
     width: 100%;
     padding: 0;
     margin: 0;
-  }
-  .kart {
-    width: 100%;
-  }
-  .mineturer {
-    width: 100%;
-  }
-  .title {
-    font-size: 1rem;
   }
 }

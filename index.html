@@ -6,92 +6,49 @@
     <title>Portefølje</title>
     <link rel="stylesheet" href="main.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <div class="burger-menu">
+      <ul class="burger-menu-list">
+        <li class="burger-TL"><a href="index.html">TL</a></li>
+        <li class="burger-menu-item"><a href="omMeg.html">Om meg</a></li>
+        <li class="burger-menu-item">
+          <a href="prosjekter.html">Mine prosjekter</a>
+        </li>
+      </ul>
+    </div>
     <header class="header">
-      <img class="bilde" src="tonyLQ.jpg" alt="Bilde av meg" />
       <div class="tittel">
         <h1 class="overskrift">Tonje Løfqvist</h1>
         <h2 class="student">Interaksjonsdesignstudent ved UiO</h2>
-        <a
-          class="linkedin"
-          href="https://www.linkedin.com/in/tonje-l%C3%B8fqvist-632518174/?originalSubdomain=no"
-          target="_blank"
-          >Linkedin
-        </a>
+        <h3 class="student">Velkommen til min portefølje!</h3>
       </div>
     </header>
-
-    <div class="projekt-titel">
-      <h2 class="prosjekter">Mine prosjekter</h2>
-    </div>
-    <div class="content">
-      <div class="indigo">
-        <div class="indigoTitle">
-          <img class="indigoLogo" src="logo.png"Indigo" />
-          <div class="iTekstogBeskrivelse">
-            <h2 class="iTekst">Indigo</h2>
-            <p class="iBeskrivelse">
-              Indigo er et prosjekt i bruksorientert design som omhandlet å
-              trygge folks kjørevaner.
-            </p>
-            <a class="indigoKnapp" href="indigo.html"
-              >Klikk her for å lese mer</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="bergtatt">
-        <div class="bergTitle">
-          <img class="bergtattLogo" src="logo_app_ikon.png" alt="Bergtatt" />
-          <div class="TittelTekst">
-            <h2 class="bTekst">Bergtatt</h2>
-            <p class="bBeskrivelse">
-              Bergtatt er en applikasjon med fokus på snøskredvarsling for
-              turgåere.
-            </p>
-            <a class="bergtattKnapp" href="bergtatt.html"
-              >Klikk her for å lese mer</a
-            >
-          </div>
-        </div>
-
-        <!-- <button id="bergtattKnapp" class="bergtattKnapp" onclick="location.href=bergtatt.html">Klikk her for å lese mer</button> -->
-      </div>
-    </div>
-
-    <main class="main"></main>
-
-    <footer class="footer"></footer>
-
-    <!-- <h1 class="title">Halla skjera</h1>
-    <p>Filip er den beste i verden</p>
-
-
-
-
-    <div class="list">
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>Samarbeid</li>
+    <navbar class="side-navbar">
+      <div class="navbar-container">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="TL-logo" href="index.html">TL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="omMeg.html">Om meg</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="prosjekter.html">Prosjekter</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="linkedin"
+              href="https://www.linkedin.com/in/tonje-l%C3%B8fqvist-632518174/?originalSubdomain=no"
+              target="_blank"
+              >Linkedin
+            </a>
+          </li>
         </ul>
-    </div>
-    
-    <div class="bildeGruppe">
-        <img class="bilde" src="meg.JPG" alt="Bilde av meg"/>
-
-    </div> -->
+      </div>
+    </navbar>
   </body>
 </html>
-<!-- <script>
-    const knapp = document.getElementById("bergtattKnapp");
-    function bergtattSide(){
-        window.location.replace = "bergtatt.html"
-    }
-</script> -->
