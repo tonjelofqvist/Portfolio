@@ -1,9 +1,17 @@
 body {
   font-family: "Cormorant", serif;
   height: 100%;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   background-color: #e4efef;
+  color: #224d4d;
+  font-weight: 200;
+}
+
+.bmh_link {
+  text-decoration: none;
+  text-decoration: underline;
   color: #224d4d;
 }
 
@@ -21,6 +29,18 @@ body {
   margin: 0 auto;
 }
 
+.prosjekt_arbeid {
+  width: 90%;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+.farger {
+  width: 70%;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
 .metode {
   text-align: center;
   padding-bottom: 2rem;
@@ -30,8 +50,6 @@ body {
 .metode p {
   text-align: left;
   padding: 1rem;
-  /* width: 60%; */
-  /* margin: 0 auto; */
 }
 
 .beskrivelse {

@@ -2,3 +2,7 @@ body {
   font-family: "Cormorant", serif;
   color: #224d4d;
 }
+
+.cv-ul {
+  background-color: aqua;
+}

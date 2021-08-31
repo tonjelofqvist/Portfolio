@@ -22,6 +22,12 @@ body {
   margin: 0 auto;
 }
 
+.delegering_bilde1 {
+  width: 60%;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
 .metode {
   text-align: center;
   padding-bottom: 2rem;
