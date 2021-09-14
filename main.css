@@ -26,11 +26,13 @@ li {
 }
 
 .list {
-  background-color: #739296;
-  margin: 1rem;
+  background-color: #ffffff;
+  margin: 0.5rem;
   border-radius: 15px;
-  padding: 0.3rem;
-  color: #fafefe;
+  padding: 0.5rem;
+  color: #0c3131;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
   /*border: 2px solid #739296;*/
 }
 
@@ -125,33 +127,46 @@ li {
 }
 
 .om-meg-tekst {
-  width: 850px;
+  width: 880px;
   margin-bottom: 1rem;
 }
 
 .om-meg-content {
   display: flex;
   flex-direction: column;
-  width: 86%;
+  width: 98%;
   float: right;
   align-items: center;
   padding: 1rem 0rem;
 }
 .cv-liste {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: start;
+  flex-wrap: wrap;
 }
 
 .cv-liste-item {
   flex-direction: column;
-  margin: 0rem 5.2rem;
 }
 
 .content {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.cv-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.kunnskap {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .indigo {
@@ -263,13 +278,6 @@ li {
 .burger-TL a {
   text-decoration: none;
   color: #fafefe;
-}
-
-.cv-ul {
-  list-style: none;
-  margin: 0;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 /*.cv-ul li:before {
